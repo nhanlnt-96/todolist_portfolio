@@ -1,0 +1,46 @@
+/* register header */
+.register-header {
+  height: 50px;
+}
+
+.header-logo > h1 {
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 50px;
+}
+
+.header-content > h3 {
+  margin-bottom: 0;
+  text-align: right;
+  line-height: 50px;
+}
+
+.header-content h3 button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  color: #53cde2;
+}
+
+.header-content h3 button:hover {
+  color: #005792;
+}
+
+/* register form */
+.register-form {
+  height: 694px;
+  padding: 10px;
+}
+
+.register-title > h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+@media (max-width: 575.98px) {
+    .header-content > h3 {
+        text-align: center;
+      }
+}
