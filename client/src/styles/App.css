@@ -1,0 +1,16 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(0deg, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.container {
+  width: 1024px;
+  height: 768px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
